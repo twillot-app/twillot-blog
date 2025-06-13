@@ -83,14 +83,6 @@ const config = {
 				source: '/api/analytics',
 				destination: `${HASHNODE_ADVANCED_ANALYTICS_URL}/api/analytics`,
 			},
-      {
-        source: "/blog",
-        destination: "https://twillot-blog.vercel.app/blog",
-      },
-      {
-        source: "/blog/:path*",
-        destination: "https://twillot-blog.vercel.app/blog/:path*",
-      },
 		];
 	},
 	async redirects() {
